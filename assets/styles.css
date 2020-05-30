@@ -1,0 +1,63 @@
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    background-color: lightcoral;
+    font-family: 'Comic Sans MS';
+}
+.dummy {
+    background-color: lightsteelblue;
+}
+
+.nav {
+    height: 50px;
+    align-items: center;
+    background-color: black;
+    color: whitesmoke;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.foo {
+    height: 50px;
+    align-items: center;
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    clear: both;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+  
+a:active {
+    color:whitesmoke;
+}
+  
+a:visited {
+    color:whitesmoke;
+}
+
+a:hover {
+    color: lightgreen;
+}
